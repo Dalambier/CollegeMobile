@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.Forms.ProfessionsList"
+             BackgroundColor="#9FA8DA"
+             NavigationPage.HasNavigationBar="True"
+             Title="Профессии">
+    <Grid>
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_ISIP.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Специалист по информационным системам" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                                <Button HeightRequest="220" WidthRequest="100" Padding="0" Margin="-20, -225, -20, 0" Opacity="0" Clicked="ISIP_Clicked"></Button>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_IMCI.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Мастер по обработке цифровой информации" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                                <Button HeightRequest="220" WidthRequest="100" Padding="0" Margin="-20, -215, -20, 0" Opacity="0" Clicked="MCI_Clicked"></Button>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

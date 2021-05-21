@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.Forms.MainPage"
+             BackgroundColor="#9FA8DA"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="20" Spacing="10">
+                <Frame CornerRadius="35" Padding="0">
+                    <Label Text="Главная" FontSize="28" TextColor="Black" Padding="10" HorizontalOptions="Center"></Label>
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Frame HeightRequest="100" WidthRequest="100" Background="white" CornerRadius="25">
+                        <StackLayout>
+                            <Image Source="StudentHat.png" WidthRequest="60" HeightRequest="60"></Image>
+                            <Label Text="Профессии" HorizontalOptions="Center" FontSize="15" TextColor="#303F9F" FontAttributes="Bold"></Label>
+                            <Button Clicked="Professions_Clicked" HeightRequest="170" WidthRequest="170" Padding="0" Margin="-20, -120, -20, 0" Opacity="0"></Button>
+                        </StackLayout>
+                    </Frame>
+                    <Frame HeightRequest="100" WidthRequest="100" Background="#white" CornerRadius="25">
+                        <StackLayout>
+                            <Image Source="Buildings.png" WidthRequest="60" HeightRequest="60"></Image>
+                            <Label Text="Корпуса" HorizontalOptions="Center" FontSize="15" TextColor="#303F9F" FontAttributes="Bold"></Label>
+                            <Button Clicked="Buildings_Clicked" HeightRequest="170" WidthRequest="170" Padding="0" Margin="-20, -120, -20, 0" Opacity="0"></Button>
+                        </StackLayout>
+                    </Frame>
+                    <Frame HeightRequest="100" WidthRequest="100" Background="white" CornerRadius="25">
+                        <StackLayout>
+                            <Image Source="Information.png" WidthRequest="60" HeightRequest="60"></Image>
+                            <Label Text="Инфо" HorizontalOptions="Center" FontSize="15" TextColor="#303F9F" FontAttributes="Bold"></Label>
+                            <Button Clicked="Button_Clicked_2" HeightRequest="170" WidthRequest="170" Padding="0" Margin="-20, -120, -20, 0" Opacity="0"></Button>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <Label Margin="0, 20, 0, 0" HorizontalOptions="Center" TextColor="White" Text="НОВОСТИ" FontSize="56" FontAttributes="Bold"/>
+                <StackLayout>
+                    <Frame HeightRequest="150" Background="#fff" CornerRadius="25">
+                        <StackLayout>
+                            <Label Text="Появилась новая профессия Токарь" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            <Image Source="icon_about.png" WidthRequest="80" HeightRequest="80" Margin="-270, 0, 0, 0"></Image>
+                            <Label Text="Студенты смогу изучить искуство токарного мастерства прямо в нашем колледже с 01.09.2022" Margin="80, -80, 0, 0" FontSize="16"></Label>
+                            <Label Text="19.05.2021" Margin="250, 0, 0, 0"></Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame HeightRequest="150" Background="#fff" CornerRadius="25">
+                        <StackLayout>
+                            <Label Text="Появилась новая профессия Токарь" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            <Image Source="icon_about.png" WidthRequest="80" HeightRequest="80" Margin="-270, 0, 0, 0"></Image>
+                            <Label Text="Студенты смогу изучить искуство токарного мастерства прямо в нашем колледже с 01.09.2022" Margin="80, -80, 0, 0" FontSize="16"></Label>
+                            <Label Text="19.05.2021" Margin="250, 0, 0, 0"></Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame HeightRequest="150" Background="#fff" CornerRadius="25">
+                        <StackLayout>
+                            <Label Text="Появилась новая профессия Токарь" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            <Image Source="icon_about.png" WidthRequest="80" HeightRequest="80" Margin="-270, 0, 0, 0"></Image>
+                            <Label Text="Студенты смогу изучить искуство токарного мастерства прямо в нашем колледже с 01.09.2022" Margin="80, -80, 0, 0" FontSize="16"></Label>
+                            <Label Text="19.05.2021" Margin="250, 0, 0, 0"></Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame HeightRequest="150" Background="#fff" CornerRadius="25">
+                        <StackLayout>
+                            <Label Text="Появилась новая профессия Токарь" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            <Image Source="icon_about.png" WidthRequest="80" HeightRequest="80" Margin="-270, 0, 0, 0"></Image>
+                            <Label Text="Студенты смогу изучить искуство токарного мастерства прямо в нашем колледже с 01.09.2022" Margin="80, -80, 0, 0" FontSize="16"></Label>
+                            <Label Text="19.05.2021" Margin="250, 0, 0, 0"></Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

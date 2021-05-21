@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.Forms.Professions.MCI"
+             BackgroundColor="#9FA8DA"
+             Title="Номер профессии"
+             NavigationPage.HasNavigationBar="True">
+    <StackLayout>
+
+        <ScrollView>
+            <StackLayout>
+                <Image Source="ProfessionImage_IMCI.png" Margin="20, 0, 0, 0"></Image>
+
+                <StackLayout>
+                    <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">
+                        <StackLayout>
+                            <Label Padding="10,5,30,0">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Уровень образования: " FontAttributes="Bold" FontSize="20"></Span>
+                                        <Span Text="Среднее профессиональное" FontSize="20"></Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">
+                        <StackLayout>
+                            <Label Padding="10,5,30,0">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Квалификация: " FontAttributes="Bold" FontSize="20"></Span>
+                                        <Span Text="Специалист по информационным системам" FontSize="20"></Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">
+                        <StackLayout>
+                            <Label Padding="10,5,30,0">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Форма обучения: " FontAttributes="Bold" FontSize="20"></Span>
+                                        <Span Text="Очная" FontSize="20"></Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">
+                        <StackLayout>
+                            <Label Padding="10,5,30,0" Text="Срок обучения: " FontAttributes="Bold" FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● На базе основного общего образования 3 года 10 месяцев"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● На базе среднего общего образования 2 года 10 месяцев"  FontSize="20"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">
+                        <StackLayout>
+                            <Label Padding="10,5,30,0" Text="Виды профессиональной деятельности: " FontAttributes="Bold" FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● Осуществление интеграции программных модулей"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● Ревьюирование программных продуктов"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● Проектирование и разработка информационных систем"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● Сопровождение информационных систем"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● Соадминистрирование баз данных и серверов"  FontSize="20"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

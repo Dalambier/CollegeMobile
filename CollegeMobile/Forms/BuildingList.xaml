@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.Forms.BuildingList"
+             BackgroundColor="#9FA8DA"
+             NavigationPage.HasNavigationBar="True"
+             Title="Корпуса">
+    <Grid>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="20" Spacing="30">
+                <Frame HeightRequest="180" WidthRequest="100" Background="white" CornerRadius="25">
+                    <StackLayout>
+                        <Label Text="Пластовский технологический филиал" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold" VerticalOptions="Start"></Label>
+                        <Image Source="Buid1.png" WidthRequest="100" HeightRequest="80" HorizontalOptions="Start"></Image>
+                        <Label Text="Адрес: г.Пласт, ул.Володарского, 2 &#10;Телефон: +7 (35160) 2-04-67" HorizontalOptions="Start" FontSize="18" FontAttributes="Bold"></Label>
+                        <Button HeightRequest="220" WidthRequest="100" Padding="0" Margin="-20, -215, -20, 0" Opacity="0"></Button>
+                    </StackLayout>
+                </Frame>
+                <Frame HeightRequest="170" WidthRequest="100" Background="white" CornerRadius="25">
+                    <StackLayout>
+                        <Label Text="Профессиональное училище №11" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold" VerticalOptions="Start"></Label>
+                        <Image Source="Buid2.png" WidthRequest="100" HeightRequest="80" HorizontalOptions="Start"></Image>
+                        <Label Text="Адрес: Копейск, проспект Ильича, 14 &#10;Телефон: +7 (35139) 3‒59‒10" HorizontalOptions="Start" FontSize="18" FontAttributes="Bold"></Label>
+                        <Button HeightRequest="220" WidthRequest="100" Padding="0" Margin="-20, -200, -20, 0" Opacity="0"></Button>
+                    </StackLayout>
+                </Frame>
+                <Frame HeightRequest="190" WidthRequest="100" Background="white" CornerRadius="25">
+                    <StackLayout>
+                        <Label Text="Копейский политехнический колледж имени С. В. Хохрякова" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold" VerticalOptions="Start"></Label>
+                        <Image Source="Build3.png" WidthRequest="100" HeightRequest="80" HorizontalOptions="Start"></Image>
+                        <Label Text="Адрес: г.Копейск, улица Ленина, 40  &#10;Телефон: +7 (35139) 3‒63‒26" HorizontalOptions="Start" FontSize="18" FontAttributes="Bold"></Label>
+                        <Button HeightRequest="220" WidthRequest="100" Padding="0" Margin="-20, -215, -20, 0" Opacity="0"></Button>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
