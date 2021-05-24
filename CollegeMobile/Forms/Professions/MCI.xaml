@@ -9,7 +9,7 @@
 
         <ScrollView>
             <StackLayout>
-                <Image Source="ProfessionImage_IMCI.png" Margin="20, 0, 0, 0"></Image>
+                <Image Source="ProfessionImage_IMCI.png" Margin="30"></Image>
 
                 <StackLayout>
                     <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">
@@ -32,7 +32,7 @@
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span Text="Квалификация: " FontAttributes="Bold" FontSize="20"></Span>
-                                        <Span Text="Специалист по информационным системам" FontSize="20"></Span>
+                                        <Span Text="////////" FontSize="20"></Span>
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>
@@ -66,11 +66,11 @@
                     <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">
                         <StackLayout>
                             <Label Padding="10,5,30,0" Text="Виды профессиональной деятельности: " FontAttributes="Bold" FontSize="20"/>
-                            <Label Padding="10,0,30,0" Text="● Осуществление интеграции программных модулей"  FontSize="20"/>
-                            <Label Padding="10,0,30,0" Text="● Ревьюирование программных продуктов"  FontSize="20"/>
-                            <Label Padding="10,0,30,0" Text="● Проектирование и разработка информационных систем"  FontSize="20"/>
-                            <Label Padding="10,0,30,0" Text="● Сопровождение информационных систем"  FontSize="20"/>
-                            <Label Padding="10,0,30,0" Text="● Соадминистрирование баз данных и серверов"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● ////////////////////"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● ////////////////////////"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● ////////////////////////////"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● ///////////////////////////"  FontSize="20"/>
+                            <Label Padding="10,0,30,0" Text="● ///////////////////////////"  FontSize="20"/>
                         </StackLayout>
                     </Frame>
                 </StackLayout>

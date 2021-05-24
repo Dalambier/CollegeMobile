@@ -9,6 +9,9 @@
         <ScrollView>
             <StackLayout Orientation="Vertical">
                 <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ISIP_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>
@@ -18,12 +21,14 @@
                         <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
                             <StackLayout>
                                 <Label Text="Специалист по информационным системам" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
-                                <Button HeightRequest="220" WidthRequest="100" Padding="0" Margin="-20, -225, -20, 0" Opacity="0" Clicked="ISIP_Clicked"></Button>
                             </StackLayout>
                         </Frame>
                     </Grid>
                 </StackLayout>
                 <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>
@@ -33,7 +38,125 @@
                         <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
                             <StackLayout>
                                 <Label Text="Мастер по обработке цифровой информации" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
-                                <Button HeightRequest="220" WidthRequest="100" Padding="0" Margin="-20, -215, -20, 0" Opacity="0" Clicked="MCI_Clicked"></Button>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_Metall.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Технология металлообрабатывающего производства" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_Law.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Право и организация социального обеспечения" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_BrickLayer.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Технология кирпичной кладки" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_Welding.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Сварочное производство" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_Technic.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Техническая эксплуатация и обслуживание электромеханического и электрического оборудования" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_ZIO.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Земельно-имущественные отношения" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MCI_Clicked"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ProfessionImage_Mechanic.png" MinimumWidthRequest="90" MinimumHeightRequest="84" Grid.Column="0"/>
+                        <Frame Background="white" CornerRadius="25" Grid.Column="1" Padding="10">
+                            <StackLayout>
+                                <Label Text="Обслуживание и ремонт двигателей, систем и агрегатов автомобилей" HorizontalOptions="Start" FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
                             </StackLayout>
                         </Frame>
                     </Grid>

@@ -16,5 +16,20 @@ namespace CollegeMobile.Forms
         {
             InitializeComponent();
         }
+
+        private void Click_Build1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Buildings.Build1());
+        }
+
+        private void Click_Build2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Buildings.Build2());
+        }
+
+        private void Click_Build3(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Buildings.Build3());
+        }
     }
 }

@@ -9,7 +9,7 @@
 
         <ScrollView>
             <StackLayout>
-                <Image Source="ProfessionImage_ISIP.png" Margin="20, 0, 0, 0"></Image>
+                <Image Source="ProfessionImage_ISIP.png" Margin="30"></Image>
 
                 <StackLayout>
                     <Frame CornerRadius="32" Margin="10, 20, 10, 20" Padding="10">

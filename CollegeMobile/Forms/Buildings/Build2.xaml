@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.Forms.Buildings.Build2"
+             BackgroundColor="#9FA8DA"
+             NavigationPage.HasNavigationBar="True"
+             Title="Профессиональное училище №11">
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Padding="20">
+            <Frame Margin="5" Background="white" CornerRadius="25">
+                <StackLayout>
+                    <Image Source="Buid2.png"></Image>
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="20" TextColor="Black" VerticalOptions="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Адрес: " FontAttributes="Bold" FontSize="20"></Span>
+                                <Span Text="г.Копейск, проспект Ильича, 14"></Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="20" TextColor="Black" VerticalOptions="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Телефон: " FontAttributes="Bold" FontSize="20"></Span>
+                                <Span Text="+7 (35139) 3‒59‒10"></Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Image Source="BuildMap2.png"></Image>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
